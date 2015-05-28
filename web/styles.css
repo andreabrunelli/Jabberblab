@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Advent Pro', sans-serif;
+    background-image: url(imgs/texture.jpg);
+    min-height: 100%;
+    margin: 0;
+    position: relative;
+    padding-bottom: 1.7em;
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+    background-color: #6b0024;
+    color: #FFFFFF;
+    font-size: 0.4 em;
+    height: 1.7em;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+
+.navbar{
+    text-align: center; 
+    font-weight: 600;
+    font-size: 1.7em;
+    width: 100%;
+    margin-left: 0;
+    height: 2em;
+    line-height: 2em;
+    background-color: #6b0024;
+}
+
+.menu-item{
+    color: #FFFFFF;
+}
+
+.menu-item:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu-item:hover{
+    /*background-color: #FFFFFF;*/
+    background-image: url(imgs/texture.jpg);
+    color: #6b0024;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding:0.7em;
+    border: 1px solid #6b0024; 
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.dovesiamo p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.btn .btn-default{
+    border: 1px solid #6b0024;
+}
+
+.prezzi{
+    margin-top: 3em;
+}
+.prezzi tr th{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.prezzi tr td{
+    font-size: 1.3em;
+}
+
+.pass_dimenticata{
+    float: right;
+}
+#sub_login{
+    float: right;
+    width: 100%;
+}
+#registrati{
+    width: 100%;
+}
+.ritorna{
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    
+}
